@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav
+{
+    background-color: rgb(2, 2, 35);
+}
+.container
+{
+    position: relative;
+    width: 1080px;
+    height:75px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lists
+{
+    display: flex;
+    gap:6px;
+}
+.container a
+{
+    cursor: pointer;
+    padding-top: 7px;
+    padding-right: 7px;
+}
+.content
+{
+    color:white;
+    padding-top: 7px;
+    transition: all 200ms;
+    position: relative;
+}
+.content:hover
+{
+    color: rgb(16, 143, 186);
+    cursor: pointer;
+}

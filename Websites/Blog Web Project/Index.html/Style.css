@@ -1,0 +1,85 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+#wrapper
+{
+   height: 100vh;
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+.container
+{
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+}
+.title
+{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /* gap: 190px; */
+}
+.subscribe
+{
+    color: grey;
+    text-decoration: underline;
+    font-size: large;
+}
+.content
+{
+    margin-top: 5vh;
+    width: 75%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
+    gap:25px;
+    margin-left: 160px;
+}
+.cont{
+    padding: 10px;
+    border: 1.5px solid black;
+    box-shadow: 3px 3px 3px 3px grey,3px 3px 3px 3px grey;
+    /* box-shadow: 3px 3px 3px 3px grey inset; */
+}
+.blue
+{
+    font-size: x-large;
+    font-weight: bold;
+    color: blue;
+}
+.green
+{
+    font-size: x-large;
+    font-weight: bold;
+    color: green;
+}
+.tit{
+    margin-top: 10px;
+    font-size: 3vh;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.date
+{
+    color: grey;
+    font-weight: 200;
+    font-size: large;
+}
+.para
+{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 600;
+    font-size: 17px;
+}
+.link
+{
+    margin-top: 90px;
+}
